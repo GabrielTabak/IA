@@ -1,4 +1,7 @@
 # IA
-Trabalho Alneu IA
-Busca
+Trabalho Alneu IA.
+
+Busca,
+
 Labirinto
+
