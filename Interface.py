@@ -28,8 +28,6 @@ def showInterfaceFromFile(FileName,NomeAlgoritmo = "Algoritmo"):
     inputMatrix = readFromFile(FileName)
     rows = len(inputMatrix)
     col = len(inputMatrix[0])
-    print(rows,col)
-
 
 
     #colors
@@ -87,7 +85,6 @@ def showInterfaceFromFile(FileName,NomeAlgoritmo = "Algoritmo"):
         pygame.time.delay(15)
     #end game loop
 
-    print("Thanks for using")
     pygame.quit()
 
 

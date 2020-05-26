@@ -5,7 +5,7 @@ import Best
 import Hill
 import Largura
 import Profundidade
-import Interface
+import time
 
 
 if(len(sys.argv) <= 2):
@@ -37,5 +37,15 @@ else:
 print("Usando algoritmo: " + algoritmo_usado)
 print("Input file: " + inputFile)
 
+start = time.time()
 funcAlgo(str(inputFile))
+end = time.time()
+
+elapsedTime = end - start
+
+print("Tempo de execuçaõ: " + str(elapsedTime))
+
+
+print("\n\nAbrindo interface, info: ")
+import Interface
 Interface.showInterfaceFromFile("Result.txt",algoritmo_usado)
