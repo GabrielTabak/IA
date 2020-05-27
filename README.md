@@ -1,7 +1,9 @@
 # IA
 Trabalho Alneu IA.
+Busca Labirinto
 
-Busca,
+Uso:
+ 
+python3 main.py algoritmo input.txt
 
-Labirinto
-
+algoritmo = { AE, Best, Hill, Largura, Profundidade}
